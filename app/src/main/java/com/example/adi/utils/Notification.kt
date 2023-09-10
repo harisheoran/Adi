@@ -53,12 +53,12 @@ class NotificationUtil(val context: Context) {
         PendingIntent.getActivity(context, 0, intent, PendingIntent.FLAG_IMMUTABLE)
 
     val builder = NotificationCompat.Builder(context, CHANNEL_ID)
-        .setSmallIcon(R.drawable.notification_icon)
-        .setContentTitle("Demo")
-        .setContentText("Notification Demo")
+        .setSmallIcon(R.drawable.ohm)
+        .setContentTitle("Adi आदि")
+        .setContentText("Know about Hinduism")
         .setStyle(
             NotificationCompat.BigTextStyle()
-                .bigText("Longer Notification")
+                .bigText("Know about Hinduism")
         )
         .setPriority(NotificationCompat.PRIORITY_DEFAULT)
         .setContentIntent(pendingIntent)

@@ -83,10 +83,10 @@ fun HomeUI(
     LazyVerticalGrid(
         columns = GridCells.Fixed(1),
         contentPadding = PaddingValues(
-            start = 16.dp,
-            top = 16.dp,
-            end = 16.dp,
-            bottom = 16.dp
+            start = 18.dp,
+            top = 18.dp,
+            end = 18.dp,
+            bottom = 18.dp
         ),
         horizontalArrangement = Arrangement.spacedBy(16.dp),
         verticalArrangement = Arrangement.spacedBy(16.dp)
